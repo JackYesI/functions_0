@@ -84,17 +84,21 @@
 #     print('number less than zero')
 
 # 2 2)
-def pow_2(x):
-    try:
-        if x < 0:
-            raise Exception
-        print(x**2)
-    except Exception:
-        print('number less than zero')
+# def pow_2(x):
+#     try:
+#         if x < 0:
+#             raise Exception
+#         print(x**2)
+#     except Exception:
+#         print('number less than zero')
 
 
-number = int(input("Enter number: "))
-pow_2(number)
+# number = int(input("Enter number: "))
+# pow_2(number)
+
+# Second part Modul 7
+# 1
+
 
 
 
