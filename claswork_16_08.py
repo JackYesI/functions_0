@@ -67,25 +67,38 @@
 ########### swap text file
 
 ########## exersise
-url = 'file/my.txt'
-url_new = 'file/my_2.txt'
+# url = 'file/my.txt'
 
-def readFile(fname):
-    with open(fname) as file:
-        return file.read()
+# def readFile(fname):
+#     with open(fname, encoding='utf-8') as file:
+#         return file.read()
 
-def writeFile(fname, newText):
-    with open (fname, 'w') as file:
-        file.write(newText) 
-    
-text = readFile(url)
-words = text.split()
-words_reverse = list(reversed(words))
-str_ = ''
-for i in words_reverse:
-    str_ += i + ' '
-str_= str_.replace(',', '')
-str_= str_.replace('.', '')
+# def removePunct(line, marks):
+#     str_ = ''
+#     for ch in line:
+#         if ch not in marks:
+#             str_+=ch
+#     return str_
+
+# def writeFile(url, list):
+#     with open(url, 'w', encoding='utf-8') as file:
+#         file.writelines(list)
+
+# marks = '.,_-!?&-():'
+# text = readFile(url)
+# removeText = removePunct(text, marks)
+# newText = ' '.join(removeText.split()[::-1])
+
+# writeFile(url,newText)
+######### Exersise
 
 
-# print(len(words))
+##   join
+# number_1 = [11,14,15,23,25,46]
+
+# with open('file/number.txt', 'w') as file:
+#     newNumber = []
+#     for i in number_1:
+#         newNumber.append(str(i))
+#     file.write(" ".join(newNumber))
+
